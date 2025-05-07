@@ -1,0 +1,12 @@
+com\max420\books\models\Book$BookBuilder.class
+com\max420\books\utils\BookServiceUtils.class
+com\max420\books\dto\BookDto.class
+com\max420\books\controllers\BookController.class
+com\max420\books\models\Book.class
+com\max420\books\services\BookService.class
+com\max420\books\dto\BookDto$BookDtoBuilder.class
+com\max420\books\services\impl\BookServiceImpl.class
+com\max420\books\config\SecurityConfig.class
+com\max420\books\dto\AddBookRequest.class
+com\max420\books\BooksApplication.class
+com\max420\books\repository\BookRepository.class
