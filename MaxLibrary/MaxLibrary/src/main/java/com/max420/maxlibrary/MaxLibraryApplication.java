@@ -13,6 +13,7 @@ import java.util.Collections;
 @EnableJpaRepositories(basePackages = "repository")
 @ComponentScan(basePackages = {"config", "controllers", "repository", "services"})
 @EntityScan(basePackages = "models")
+@EnableWebSecurity
 public class MaxLibraryApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MaxLibraryApplication.class, args);
