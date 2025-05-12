@@ -73,7 +73,6 @@ public class BooksServiceGateway {
             String token = authorization.substring(7);
             String userEmail = jwtService.extractEmail(token);
             try {
-                System.out.println("EXTRACTED EMAIL " + userEmail);
                 customerService.addToRented(title, userEmail);
                 return ResponseEntity.ok("successfully rented a book: " + title);
             } catch (Exception e) {
